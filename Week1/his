@@ -1,0 +1,41 @@
+    1  sudo dnf distro-sync
+    2  sudo dnf install docker-ce
+    3  sudo dnf -y install dnf-plugins-core
+    4  sudo dnf config-manager     --add-repo     https://download.docker.com/linux/fedora/docker-ce.repo
+    5  sudo dnf install docker-ce
+    6  python3
+    7  docker
+    8  gcc
+    9  uptime 
+   10  git clone https://github.com/dominicplant/x00058367.git
+   11  ls
+   12  pwd
+   13  history
+   14  ls -l
+   15  ls x00058367
+   16  cd x00058367
+   17  ls
+   18  mkdir Week1
+   19  cd Week1
+   20  ls
+   21  ren 'untitled document 1' first.sh
+   22  rename 'untitled document 1' first.sh
+   23  ls
+   24  cd..
+   25  cdcd epauser
+   26  ls
+   27  cd x00058367
+   28  ls
+   29  chmod +x first.sh
+   30  ./first.sh
+   31  git add first.sh
+   32  git commit -m "my first script" first.sh
+   33  gitcommit -m "my first script" first.sh
+   34  git commit -m "my first script" first.sh
+   35  history
+   36  git commit -m "my first script" first.sh
+   37  ls
+   38  git commit -m "my first script" first.sh
+   39  git push
+   40  history
+
